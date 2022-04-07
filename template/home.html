@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        {% load static %}
+
+        <link rel="stylesheet" href={% static 'home.css' %}>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+<div id="oq">own-QR</div>
+<p>Enter the Content you want inside</p>
+<form method="post">
+<div id="cointain" >
+    
+    <div id="txt"> <textarea id="intxt" name="data"></textarea></div>
+    </div>
+    <div id="submit">
+    <button>submit</button>
+    </div>
+    {% csrf_token %}
+    </form>
+        <script src="" async defer></script>
+    </body>
+</html>
