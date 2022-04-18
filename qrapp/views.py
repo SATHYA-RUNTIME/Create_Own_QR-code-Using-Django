@@ -10,7 +10,7 @@ def qr(request):
         qr=pyqrcode.create(content)
         ln=len(content)
         path1=str(ln)+content[0]+".png"
-        path=os.path.join("static/img",path1)
+        path=os.path.join("sta/img",path1)
         qr.png(path,scale=8)
         path2=ln
         return render(request,"qr.html",{"fnme":path2,"path":"path"})
