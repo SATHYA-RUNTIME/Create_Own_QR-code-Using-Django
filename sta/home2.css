@@ -84,3 +84,16 @@ button:hover{
     background:transparent;
     width: 100%;
 }
+font
+{
+    text-align: left;
+    float: right;
+    font-size: 20px;
+    padding: 19px;
+    text-decoration: none;
+
+}
+#other{
+    text-decoration: none;
+    color: white;
+}
