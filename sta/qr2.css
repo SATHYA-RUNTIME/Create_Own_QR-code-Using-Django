@@ -33,8 +33,10 @@ h1{
 }
 #txt,#intxt{
     background-color: rgb(255, 255, 255);
-    height:180px;
-    width: 350px;
+    max-height:180px;
+    max-width: 350px;
+    height: auto;
+    width: auto;
     outline: none;
     
 }

@@ -2,7 +2,8 @@ body{
     padding: 0;
     margin: 0;
     background-size:cover;
-    background-repeat: no-repeat;
+    width:100%;
+    height: auto;
 }
 h1{
     color: rgb(209, 206, 18);
@@ -10,15 +11,15 @@ h1{
 }
 #oq{
     width: 100%;
-    height: 80px;
-    font-size:5vw;
+    height: 13vh;
+    font-size:8vh;
     color: rgb(255, 255, 255);
     background-color: aquamarine;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center ;
-    box-shadow: 5px 4px 6px 0 rgb(44, 151, 124);
+    box-shadow: 5px 4px 6px 0 rgb(86, 87, 86);
     background-image: linear-gradient(120deg, rgb(255, 0, 0) ,rgb(0, 44, 167));
     padding-top: 20;
+    text-align: center;
 }
 #cointain{
     background:transparent;
@@ -35,18 +36,20 @@ h1{
     background:transparent;
 }
 #txt,#intxt{
-    height:180px;
-    width: 350px;
+
+
+ 
     outline: none;
     
 }
 #intxt{
     border-radius: 2px;
-    margin-top: 10px;
+    margin-top: 1vh;
     box-shadow: inset 3px 3px 5px  rgb(131, 125, 125);
     padding: 5px;
-
-
+    font-size: 4vh;
+    height:30vh;
+  width: 55vh;
 }
 #intxt:hover{
     box-shadow: 4px 4.1px 8px 3px rgb(131, 125, 125);
@@ -55,18 +58,18 @@ h1{
    
 }
 p{
-    height: 50px;
+    height: 10vh;
     font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 6vh;
     word-spacing: 0px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 12vh;
     font-weight: bold;
 }
 button{
     background-image: linear-gradient(120deg, rgb(255, 0, 0) ,rgb(0, 68, 255));
-    height: 45px;
-    width: 140px;
+    height: 7vh;
+    width: 22vh;
     border-radius: 10px;
     border: none;
     box-shadow: inset 4px 4.1px 8px 1px rgb(0, 0, 0);
@@ -96,4 +99,7 @@ font
 #other{
     text-decoration: none;
     color: white;
+    letter-spacing: 0.5vh;
+    font-size: 3vh;
+
 }
